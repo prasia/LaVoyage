@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task List</title>
+
+	<link rel="stylesheet" href="todolist.css" />
+</head>
+<body>
+	   <nav class="navbar">
+            <div class="navbar__container">
+                <a href="index.html" id="navbar__logo"> <b>  LaVoyage</b></a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__links">About
+                        </a>
+                    </li>
+                    
+                        <li class="navbar__item">
+                            <a href="month.html" class="navbar__links">Spot of the Month!
+                            </a>
+                        </li>
+                        <li class="navbar__btn">
+                            
+                            <li></li>
+                        </li>
+                    
+                </ul>
+
+            </div>
+
+        </nav>
+	<header>
+		<h1>Avalon Packing List</h1>
+		<form id="new-task-form">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="From parasailing and submarines to bison and hiking, Avalon has it all!" />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="ADD TASK" />
+		</form>
+	</header>
+	<main>
+		<section class="task-list">
+			<h2>To Pack:</h2>
+
+			<div id="tasks">
+
+				<div class="task">
+					<div class="content">
+						<input 
+							type="text" 
+							class="text" 
+							value="Sunscreen"
+							>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div> 
+        <div class="task">
+					<div class="content">
+						<input 
+							type="text" 
+							class="text" 
+							value="Comfortable Shoes"
+							>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div> 
+        <div class="task">
+					<div class="content">
+						<input 
+							type="text" 
+							class="text" 
+							value="Beach Towel"
+							>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div> 
+			</div>
+		</section>
+	</main>
+
+  <footer style="margin: 10rem 0 0 0 " class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>LaVoyage
+                </h1>
+                <p>Copyright &copy; 2022</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="month.html">Spot of Month</a></li>
+                    <li><a href="/">/</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+  
+
+	<script src="todolist.js"></script>
+</body>
+</html>

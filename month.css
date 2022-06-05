@@ -1,0 +1,158 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
+:root {
+  --primary-color: #83C5BE;
+  --secondary-color: #FFDDD2;
+  --dark-color: #006D77;
+  --light-color: #EDF6F9;
+  --success-color: #64dfdf;
+  --error-color: #E29578;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+  
+}
+
+p {
+  margin: 10px 0;
+}
+
+ 
+
+code,
+pre {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: #83C5BE;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0  50px;
+
+}
+
+#navbar__logo{
+    background: #83C5BE;
+    background-image: linear-gradient(to top, #fff 0%, #FFf 100%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    
+}
+
+.navbar__item{
+    height: 80px;
+}
+/**/
+.navbar__links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+.navbar__links:hover {
+  border-bottom: 2px #fff solid;
+}
+.navbar__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.column {
+  float: center;
+  width: 100%;
+  padding: 10px ;
+ 
+  align-self: center;
+   
+}
+.column:hover{
+  transform: scale(1.025);
+    transition: 0.2s ease-in-out;
+}
+
+.body{
+  background-color: #EDF6F9;
+}
+/*learn*/
+#learn1{
+  background-color: #EDF6F9;
+}
+#learn2{
+  background-color: #EDF6F9;
+}
+
