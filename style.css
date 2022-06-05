@@ -168,7 +168,7 @@ pre {
 }
 .main__container{
  
-  background-image: url('images/beach.jpeg');
+  background-image: url('images/beach10.jpg');
   background-size: cover;
  
   
@@ -195,7 +195,7 @@ font-weight:700;
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 1000;
-    color: #EDF6F9;
+    color: #006D77;
   text-align:center;
 
 }
